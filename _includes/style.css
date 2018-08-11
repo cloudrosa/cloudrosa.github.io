@@ -255,10 +255,10 @@ a.external:hover {
   }
 }
 .post-wrapper {
-  width: 900px;
+  width: 1200px;
   margin: 0 auto;
   background: #fff;
-  padding: 80px 60px;
+  padding: 80px 10px;
 }
 @media screen and (max-width: 767px) {
   .post-wrapper {
