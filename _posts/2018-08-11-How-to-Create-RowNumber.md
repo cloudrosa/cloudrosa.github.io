@@ -69,7 +69,8 @@ SELECT NTILE(2) OVER(ORDER BY A.TotalScore DESC) AS RowNum, A.Name, A.TotalScore
 #### 方法六  
 * 兼容所有SQL版本的写法  
 ```
-SELECT (SELECT COUNT(*)+1 FROM #Temp AS B WHERE A.TotalScore < B.TotalScore) AS RowNum, A.Name, A.TotalScore FROM #Temp AS A ORDER BY A.TotalScore DESC  
+SELECT (SELECT COUNT(*)+1 FROM #Temp AS B WHERE A.TotalScore < B.TotalScore) AS RowNum, A.Name, A.TotalScore FROM #Temp AS A 
+ORDER BY A.TotalScore DESC  
 ```
 ---
 ### 总结  
