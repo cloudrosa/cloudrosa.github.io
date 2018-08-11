@@ -2,7 +2,8 @@
 layout: post  
 title: Mssql行转列  
 description: 行转列几种方法汇总  
-category: database  
+category: blog  
+subtype: database
 ---  
 
 ## Mssql行转列   

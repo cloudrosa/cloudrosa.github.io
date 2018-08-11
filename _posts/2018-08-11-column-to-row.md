@@ -2,7 +2,8 @@
 layout: post  
 title: Mssql列转行  
 description: 列转行几种方法汇总  
-category: database  
+category: blog  
+subtype: database  
 ---  
 
 ## Mssql列转行   

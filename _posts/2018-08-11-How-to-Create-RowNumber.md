@@ -2,7 +2,8 @@
 layout: post  
 title: Mssql生成序号的方法  
 description: Mssql数据库生成序号的几种方法汇总  
-category: database  
+category: blog  
+subtype: database
 ---  
 
 ## Mssql生成序号的方法  
