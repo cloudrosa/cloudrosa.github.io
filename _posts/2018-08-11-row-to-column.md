@@ -80,3 +80,4 @@ INNER JOIN
 ) AS B ON A.Name = B.Name'
 EXEC (@strSql)
 ```
+---
