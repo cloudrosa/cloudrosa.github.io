@@ -6,7 +6,7 @@ category: database
 ---  
 
 ## Mssql生成序号的方法  
-#### 生成示例数据  
+1. 生成示例数据  
 
         CREATE TABLE BD_Score  
         (  
@@ -16,7 +16,7 @@ category: database
             Score INT NOT NULL DEFAULT(0)  
         )  
 
-#### 生成测试数据  
+2. 生成测试数据  
   
         INSERT INTO BD_Score(Name, Subject, Score)  
         SELECT '张三', '语文', 80 UNION ALL  
@@ -32,9 +32,9 @@ category: database
         SELECT '麻六', '语文', 84 UNION ALL  
         SELECT '麻六', '语文', 77  
 
-#### 数据初步处理  
-  
-    SELECT A.Name, SUM(A.Score) AS TotalScore INTO #Temp FROM dbo.BD_Score AS A GROUP BY A.Name  
+3. 数据初步处理  
+
+        SELECT A.Name, SUM(A.Score) AS TotalScore INTO #Temp FROM dbo.BD_Score AS A GROUP BY A.Name  
 
 #### 方法一 IDENTITY  
 * 此方法缺点是必须要生成一个临时表  
