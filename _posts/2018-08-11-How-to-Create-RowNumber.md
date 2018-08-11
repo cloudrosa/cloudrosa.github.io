@@ -29,8 +29,8 @@ SELECT '王五', '语文', 73 UNION ALL
 SELECT '王五', '数学', 90 UNION ALL  
 SELECT '王五', '英语', 97 UNION ALL  
 SELECT '麻六', '语文', 65 UNION ALL  
-SELECT '麻六', '语文', 84 UNION ALL  
-SELECT '麻六', '语文', 77  
+SELECT '麻六', '数学', 84 UNION ALL  
+SELECT '麻六', '英语', 77  
 ```
 ### 数据初步处理  
 ```
