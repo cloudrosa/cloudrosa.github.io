@@ -13,7 +13,7 @@ $.ajax({
         type: "post",
         contentType: "application/json;charset=utf-8",
         dataType: "json",
-        data: "{'student':{'Name':'张峻豪','Sex':'男','Age':27}}",
+        data: "{'student':{'Name':'张三','Sex':'男','Age':18}}",
         success: function(result) { alert(result.d); },
         error: function(e) { alert("错误" + e.responseText) }
 });
